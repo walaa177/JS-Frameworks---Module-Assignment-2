@@ -1,0 +1,48 @@
+.home-nav {
+  background-color: $colour-background !important;
+  color: $colour-white !important;
+  .navbar-brand {
+    color: $colour-white;
+    font-size: 23px !important;
+  }
+  .nav-link {
+    color: $colour-white !important;
+    font-size: 18px;
+    &:hover {
+      text-decoration: underline !important;
+    }
+  }
+  .btn-outline-success {
+    color: $colour-white !important;
+    &:hover {
+      background-color: $colour-secondr !important;
+    }
+  }
+}
+.items {
+  .heading-home {
+    margin: 30px;
+    color: $colour-white;
+    text-transform: uppercase;
+  }
+}
+.item {
+  background-color: $colour-white;
+  margin: 10px;
+  &:hover {
+    background-color: #e5ffdf4d;
+  }
+  a:hover {
+    text-decoration-line: none;
+  }
+  h4 {
+    color: $colour-secondr !important;
+  }
+  h5 {
+    color: black;
+    font-weight: 600;
+  }
+  p {
+    color: black;
+  }
+}

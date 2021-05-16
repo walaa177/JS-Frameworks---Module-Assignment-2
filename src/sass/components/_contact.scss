@@ -1,0 +1,23 @@
+.contact {
+  margin-top: 50px;
+  color: $colour-white;
+  &-info {
+    margin: 50px;
+    background-color: #fff;
+    border: 15px groove rgba(103, 138, 93, 0.71);
+    border-radius: 0px 23px 0px 23px;
+    padding: 20px;
+  }
+}
+.btn-info {
+  background-color: #678a5d !important;
+  border: none;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  &:hover {
+    background-color: #526d4b !important;
+  }
+  &:focus {
+    outline: none !important;
+  }
+}

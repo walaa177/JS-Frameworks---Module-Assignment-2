@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Lato", Sans-Serif !important;
+  font-size: 3rem;
+  @media screen and (max-width: 900px) {
+    font-size: 2rem;
+  }
+}
+p {
+  font-family: "Catamaran", Sans-Serif !important;
+  font-size: 18px !important;
+  @media screen and (max-width: 900px) {
+    font-size: 15px;
+  }
+}
+h2 {
+  font-family: "Lato", Sans-Serif !important;
+  color: $colour-secondr;
+  font-size: 2rem;
+  @media screen and (max-width: 900px) {
+    font-size: 1.4rem;
+  }
+}
